@@ -1,0 +1,192 @@
+:root{
+    --border-input-color: #dfe1e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.header-box{
+    width: 100%;
+    height: auto;
+}
+
+.header-box .nav-box{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.8rem;
+}
+
+.header-box .nav-box ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-box .nav-box li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box .nav-box a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05rem;
+    margin-right: 1rem;
+    color: black;
+    cursor: pointer;
+}
+
+.header-box .nav-box a:hover{
+    text-decoration: underline;
+}
+
+.header-box .nav-box .menu-icon{
+    height: 2rem;
+}
+
+.header-box .nav-box .circle-icon{
+    height: 3rem;
+}
+
+.main-box{
+    text-align: center;
+}
+
+.main-box .main-logo{
+    width: 42.4rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.main-box .main-input{
+    width: 47rem;
+    margin: 0 auto;
+    margin-bottom: 2.8rem;
+}
+
+.main-box .main-input .main-input-box{
+    border-radius: 8rem;
+    border: 0.08rem solid var(--border-input-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box .main-input .main-input-box:hover{
+    box-shadow: 0 0.08rem 0.48rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.main-box .main-input input{
+    width: 37.5rem;
+    height: 3.3rem;
+    padding: 0 1.3rem;
+    border: none;
+    outline: none;
+}
+
+.main-box .main-input .search-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main-box .main-input .search-icon img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main-box .main-input .micro-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1.5rem;
+}
+
+.main-box .main-input .micro-icon img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main-box .main-input .cam-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main-box .main-input .cam-icon img{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main-box .main-buttons{
+    width: 42.4rem;
+    margin: 0 auto;
+}
+
+.main-box .main-buttons div{
+    display: inline-block;
+}
+
+.main-box .main-buttons button{
+    height: 2.88rem;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 1.12rem;
+    color: #3c4043;
+    border-radius: 0.4rem;
+    padding: 0 1.2rem;
+    margin-right: 1.28rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main-box .main-buttons button:hover{
+    border: solid 0.08rem #c6c6c6;
+    box-shadow: 0 0.08rem 0.08rem #dadce0;
+    color: #3c4043;
+}
+
+.footer-box{
+    width: 100%;
+    height: 4rem;
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 0.08rem solid #e4e4e4 ;
+}
+
+.footer-box ul{
+    margin: 0.8rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.footer-box .footer-left{
+    justify-self: left;
+}
+
+.footer-box .footer-right{
+    justify-self: right;
+}
+
+.footer-box a{
+    margin: 0.8rem;
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer-box a:hover{
+    text-decoration: underline;
+}
