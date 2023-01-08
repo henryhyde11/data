@@ -6,7 +6,7 @@
    - [Car price](https://github.com/henryhyde11/software-development-proyects/blob/main/data-proyects/Car_price.ipynb)
 
 - Linear regression:
-   - [Ecommerce](https://github.com/henryhyde11/data_science_proyects/blob/main/Ecommerce.ipynb)
+   - [Ecommerce](https://github.com/henryhyde11/software-development-proyects/blob/main/data-proyects/Ecommerce.ipynb)
 
 
 # My web development proyects.
