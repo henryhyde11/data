@@ -38,7 +38,6 @@ header{
 header img{
     width: 151px;
     height: 24px;
-
 }
 
 .header-title-container{
@@ -136,7 +135,7 @@ main{
     width: 70%;
     min-width: 288px;
     max-width: 500px;
-    height: 360px;
+    height: auto;
     margin: 0 auto;
     margin-top: 45px;
     font-family: 'Inter', sans-serif;
@@ -232,9 +231,3 @@ main{
     line-height: 0.75rem;
 }
 
-/* .currency-table-container__arrow{
-    position: relative;
-    width: fit-content;
-    left: 150px;
-    bottom: 135px;
-} */
