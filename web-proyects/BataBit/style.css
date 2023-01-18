@@ -368,3 +368,87 @@ main{
     line-height: 0.7rem;
     color: var(--just-white);
 }
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans--title h2{
+    padding-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    color: var(--black);
+}
+
+.plans--title p{
+    padding-top: 30px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 0.9rem;
+    color: #757575;
+}
+
+.plans-container--card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container__recommended{
+    position: absolute;
+    left: calc(50% - 60px);
+    top: -15px;
+    width: 120px;
+    height: 30px;
+    padding: 7px;
+    background-color: var(--bitcoin-orange);
+    font-size: 0.6rem;
+    font-weight: bold;
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.plans-card--title{
+    padding: 30px 10px 2px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    line-height: 0.9rem;
+    color: var(--black);
+}
+
+.plans-card--price{
+    padding: 5px 0;
+    font-size: 2.65rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.plans-card--price span{
+    font-size: 0.6rem;
+    font-weight: 300;
+    vertical-align: 30px;
+}
+
+.plans-card--saving{
+    font-size: 0.6rem;
+    color: #757575;
+}
