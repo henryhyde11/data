@@ -14,12 +14,12 @@
 
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 html{
     font-family: 'DM Sans', sans-serif;
+    font-size: 62.4%;
 }
 
 header{
@@ -48,17 +48,17 @@ header img{
 }
 
 .header-title-container h1{
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    line-height: 1.3rem;
+    line-height: 2rem;
     color: var(--just-white);
 }
 
 .header-title-container p{
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     margin-top: 25px;
     font-weight: 500;
-    line-height: 0.8rem;
+    line-height: 1.5rem;
     color: var(--soft-orange)
 }
 
@@ -70,7 +70,7 @@ header img{
     margin-right: auto;
     top: 275px;
     display: block;
-    margin-top: 35px;
+    margin-top: 30px;
     padding: 15px;
     width: 229px;
     height: 48px;
@@ -79,7 +79,7 @@ header img{
     box-shadow: 0px 5px 8px rgba(89, 80, 30, 0.2);
     border: none;
     border-radius: 30px;
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
     color: var(--black);
@@ -115,11 +115,11 @@ main{
 }
 
 .main-exchange-container-title h2{
-    font-size: 1.2rem;
+    font-size: 2.4rem;
 }
 
 .main-exchange-container-title p{
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     margin-top: 20px;
 }
 
@@ -139,18 +139,18 @@ main{
     margin: 0 auto;
     margin-top: 45px;
     font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.8rem;
 }
 
 .main-currency-table .currency-table__title{
     font-weight: bold;
-    line-height: 2.3rem;
+    line-height: 4.6rem;
     color: var(--bitcoin-orange);
 }
 
 .main-currency-table .commission-table__title{
     font-weight: bold;
-    line-height: 2.3rem;
+    line-height: 4.6rem;
     color: var(--secondary-blue);
 }
 
@@ -169,33 +169,38 @@ main{
 
 .currency-table-container td, .commission-table-container td{
     width: 50%;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
     font-weight: 500;
-    line-height: 1.9rem;
+    line-height: 2.8rem;
     color: var(--grey);
     background-color: var(--just-white);
 }
 
-.currency-table-container .table__top-left, .commission-table-container .table__top-left{
+.currency-table-container .table__top-left, 
+.commission-table-container .table__top-left{
     border-radius: 20px 0 0 0;
 }
 
-.currency-table-container .table__top-right, .commission-table-container .table__top-right{
+.currency-table-container .table__top-right, 
+.commission-table-container .table__top-right{
     border-radius:  0 20px 0 0;
 }
 
-.currency-table-container .table__bottom-left, .commission-table-container .table__bottom-left{
+.currency-table-container .table__bottom-left, 
+.commission-table-container .table__bottom-left{
     border-radius: 0 0 0 20px;
 }
 
-.currency-table-container .table__bottom-right, .commission-table-container .table__bottom-right{
+.currency-table-container .table__bottom-right, 
+.commission-table-container .table__bottom-right{
     border-radius: 0 0 20px 0;
 }
 
-.currency-table-container .table__right, .commission-table-container .table__right{
-    font-size: 0.7rem;
+.currency-table-container .table__right, 
+.commission-table-container .table__right{
+    font-size: 1.4rem;
     font-weight: normal;
-    line-height: 1.7rem;
+    line-height: 2.4rem;
     color: #757575;
 }
 
@@ -232,9 +237,9 @@ main{
 }
 
 .currency-table__date p{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     color: var(--warm-black);
-    line-height: 0.75rem;
+    line-height: 1.5rem;
 }
 
 .commission-table__date{
@@ -248,9 +253,9 @@ main{
 }
 
 .commission-table__date p{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     color: var(--warm-black);
-    line-height: 0.75rem;
+    line-height: 1.5rem;
 }
 
 .main-product-detail{
@@ -282,17 +287,17 @@ main{
 
 .product-detail--title h2{
     margin-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    line-height: 1.3rem;
+    line-height: 2.6rem;
     color: var(--just-white);
 }
 
 .product-detail--title p{
     margin-bottom: 20px;
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 0.9rem;
+    line-height: 1.8rem;
     color: var(--just-white);
 }
 
@@ -337,16 +342,16 @@ main{
 
 .product--card-title{
     margin-bottom: 15px;
-    font-size: 0.9rem;
+    font-size: 1.8rem;
     font-weight: bold;
-    line-height: 0.9rem;
+    line-height: 1.8rem;
     color: var(--just-white);
 }
 
 .product--card-body{
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 0.9rem;
+    line-height: 1.8rem;
     color: var(--just-white);
 }
 
@@ -363,9 +368,9 @@ main{
 
 .bitcoin-img-container h2{
     padding-top: 60px;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    line-height: 0.7rem;
+    line-height: 1.4rem;
     color: var(--just-white);
 }
 
@@ -386,15 +391,15 @@ main{
 
 .plans--title h2{
     padding-top: 50px;
-    font-size: 1.2rem;
+    font-size: 2.4rem;
     font-weight: bold;
-    line-height: 1.3rem;
+    line-height: 2.6rem;
     color: var(--black);
 }
 
 .plans--title p{
     padding-top: 30px;
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     font-weight: 500;
     line-height: 0.9rem;
     color: #757575;
@@ -421,7 +426,7 @@ main{
     height: 30px;
     padding: 7px;
     background-color: var(--bitcoin-orange);
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     font-weight: bold;
     border-radius: 8px;
     color: var(--just-white);
@@ -429,26 +434,32 @@ main{
 
 .plans-card--title{
     padding: 30px 10px 2px;
-    font-size: 0.7rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    line-height: 0.9rem;
+    line-height: 1.8rem;
     color: var(--black);
 }
 
 .plans-card--price{
     padding: 5px 0;
-    font-size: 2.65rem;
+    font-size: 5.3rem;
     font-weight: bold;
     color: var(--black);
 }
 
 .plans-card--price span{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     font-weight: 300;
     vertical-align: 30px;
 }
 
 .plans-card--saving{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
     color: #757575;
+}
+
+.plan-card--btn{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
 }
