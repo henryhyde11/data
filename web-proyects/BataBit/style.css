@@ -455,6 +455,7 @@ main{
 
 .plans-card--saving{
     font-size: 1.2rem;
+    font-weight: 300;
     color: #757575;
 }
 
@@ -462,4 +463,19 @@ main{
     width: 150px;
     height: 48px;
     margin-top: 20px;
+    background-color: var(--off-white);
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
+.plan-card--btn span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
 }
