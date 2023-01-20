@@ -12,30 +12,30 @@ html{
     font-size: 62.5%;
 }
 
-.header-box{
+header{
     width: 100%;
     height: auto;
 }
 
-.header-box .nav-box{
+header .nav-box{
     display: flex;
     justify-content: flex-end;
     padding: 0.8rem;
 }
 
-.header-box .nav-box ul{
+header .nav-box ul{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
 
-.header-box .nav-box li{
+header .nav-box li{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.header-box .nav-box a{
+header .nav-box a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.05rem;
@@ -44,15 +44,15 @@ html{
     cursor: pointer;
 }
 
-.header-box .nav-box a:hover{
+header .nav-box a:hover{
     text-decoration: underline;
 }
 
-.header-box .nav-box .menu-icon{
+header .nav-box .menu-icon{
     height: 2rem;
 }
 
-.header-box .nav-box .circle-icon{
+header .nav-box .circle-icon{
     height: 3rem;
 }
 
