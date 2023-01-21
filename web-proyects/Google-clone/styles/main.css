@@ -56,23 +56,23 @@ header .nav-box .circle-icon{
     height: 3rem;
 }
 
-.main-box{
+main{
     text-align: center;
 }
 
-.main-box .main-logo{
+main .main-logo{
     width: 42.4rem;
     margin: 0 auto;
     margin-bottom: 2rem;
 }
 
-.main-box .main-input{
+main .main-input{
     width: 47rem;
     margin: 0 auto;
     margin-bottom: 2.8rem;
 }
 
-.main-box .main-input .main-input-box{
+main .main-input .main-input-box{
     border-radius: 8rem;
     border: 0.08rem solid var(--border-input-color);
     display: flex;
@@ -80,12 +80,12 @@ header .nav-box .circle-icon{
     align-items: center;
 }
 
-.main-box .main-input .main-input-box:hover{
+main .main-input .main-input-box:hover{
     box-shadow: 0 0.08rem 0.48rem 0 #20212447;
     border-color: #dfe1e500;
 }
 
-.main-box .main-input input{
+main .main-input input{
     width: 37.5rem;
     height: 3.3rem;
     padding: 0 1.3rem;
@@ -93,47 +93,47 @@ header .nav-box .circle-icon{
     outline: none;
 }
 
-.main-box .main-input .search-icon{
+main .main-input .search-icon{
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.main-box .main-input .search-icon img{
+main .main-input .search-icon img{
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.main-box .main-input .micro-icon{
+main .main-input .micro-icon{
     width: 1.6rem;
     height: 1.6rem;
     margin-right: 1.5rem;
 }
 
-.main-box .main-input .micro-icon img{
+main .main-input .micro-icon img{
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.main-box .main-input .cam-icon{
+main .main-input .cam-icon{
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.main-box .main-input .cam-icon img{
+main .main-input .cam-icon img{
     width: 1.6rem;
     height: 1.6rem;
 }
 
-.main-box .main-buttons{
+main .main-buttons{
     width: 42.4rem;
     margin: 0 auto;
 }
 
-.main-box .main-buttons div{
+main .main-buttons div{
     display: inline-block;
 }
 
-.main-box .main-buttons button{
+main .main-buttons button{
     height: 2.88rem;
     background-color: #f8f9fa;
     border: 0;
@@ -146,7 +146,7 @@ header .nav-box .circle-icon{
     text-align: center;
 }
 
-.main-box .main-buttons button:hover{
+main .main-buttons button:hover{
     border: solid 0.08rem #c6c6c6;
     box-shadow: 0 0.08rem 0.08rem #dadce0;
     color: #3c4043;
