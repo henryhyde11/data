@@ -12,21 +12,23 @@ html{
     font-size: 62.5%;
 }
 
+/* Header */
+
 header{
     width: 100%;
+    min-width: 320px;
     height: auto;
 }
 
 header .nav-box{
     display: flex;
     justify-content: flex-end;
-    padding: 0.8rem;
+    padding: 16px;
 }
 
 header .nav-box ul{
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
 }
 
 header .nav-box li{
@@ -38,8 +40,8 @@ header .nav-box li{
 header .nav-box a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.05rem;
-    margin-right: 1rem;
+    font-size: 1.4rem;
+    margin-right: 14px;
     color: black;
     cursor: pointer;
 }
@@ -48,33 +50,40 @@ header .nav-box a:hover{
     text-decoration: underline;
 }
 
-header .nav-box .menu-icon{
-    height: 2rem;
+header .nav-box .menu-icon,
+.circle-icon{
+    height: 25px;
+    width: 25px;
 }
 
-header .nav-box .circle-icon{
-    height: 3rem;
-}
 
+/* Main */
 main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
     text-align: center;
 }
 
+
+/* Principal logo */
 main .main-logo{
-    width: 42.4rem;
     margin: 0 auto;
-    margin-bottom: 2rem;
+    margin-bottom: 25px;
 }
 
+
+/* Input */
 main .main-input{
-    width: 47rem;
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 2.8rem;
+    margin-bottom: 35px;
 }
 
 main .main-input .main-input-box{
-    border-radius: 8rem;
-    border: 0.08rem solid var(--border-input-color);
+    border-radius: 10px;
+    border: 0.5px solid var(--border-input-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,9 +95,7 @@ main .main-input .main-input-box:hover{
 }
 
 main .main-input input{
-    width: 37.5rem;
-    height: 3.3rem;
-    padding: 0 1.3rem;
+    padding: 0 2px;
     border: none;
     outline: none;
 }
@@ -124,8 +131,10 @@ main .main-input .cam-icon img{
     height: 1.6rem;
 }
 
+
+/* Buttons */
 main .main-buttons{
-    width: 42.4rem;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -152,24 +161,22 @@ main .main-buttons button:hover{
     color: #3c4043;
 }
 
+
+/* Footer */
 footer{
-    width: 100%;
-    height: 4rem;
-    font-size: 1.12rem;
-    font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     bottom: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
-    border-top: 0.08rem solid #e4e4e4 ;
+    border-top: 0.5px solid #e4e4e4 ;
 }
 
 footer ul{
-    margin: 0.8rem;
-    list-style: none;
     display: flex;
+    margin: 10px;
+    list-style: none;
     padding-left: 0;
 }
 
