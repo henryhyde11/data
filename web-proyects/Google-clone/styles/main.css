@@ -23,7 +23,7 @@ header{
 header .nav-box{
     display: flex;
     justify-content: flex-end;
-    padding: 16px;
+    padding: 10px;
 }
 
 header .nav-box ul{
