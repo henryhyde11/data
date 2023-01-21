@@ -102,8 +102,8 @@ main{
     justify-content: center;
 }
 
-.main-input .main-input-box{
-    min-width: 268px;
+.main-input-box{
+    width: auto;
     height: 22px;
     padding: 15px;
     display: flex;
@@ -113,15 +113,16 @@ main{
     border: 0.8px solid var(--border-input-color);
 }
 
-.main-input .main-input-box:hover{
-    box-shadow: 0 0.08rem 0.48rem 0 #20212447;
-    border-color: #dfe1e500;
-}
-
-.main-input input{
+.main-input-box input{
+    width: 220px;
     padding: 0 2px;
     border: none;
     outline: none;
+}
+
+.main-input-box:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
 }
 
 .icon img{
@@ -138,28 +139,33 @@ main{
 .main-buttons{
     width: 100%;
     margin: 0 auto;
-}
-
-.main-buttons div{
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-buttons button{
-    height: 2.88rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
     background-color: #f8f9fa;
     border: 0;
-    font-size: 1.12rem;
+    font-size: 1.4rem;
     color: #3c4043;
-    border-radius: 0.4rem;
-    padding: 0 1.2rem;
-    margin-right: 1.28rem;
+    border-radius: 15px;
+    padding: 10px;
     cursor: pointer;
     text-align: center;
 }
 
+.google-btn{
+    margin-right: 20px;
+}
+
 .main-buttons button:hover{
-    border: solid 0.08rem #c6c6c6;
-    box-shadow: 0 0.08rem 0.08rem #dadce0;
+    border: solid 1px #c6c6c6;
+    box-shadow: 0 1px 1px #dadce0;
     color: #3c4043;
 }
 
@@ -167,8 +173,10 @@ main{
 /* Footer */
 footer{
     position: absolute;
+    display: flex;
     bottom: 0;
     width: 100%;
+    min-width: 320px;
     font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f2f2;
@@ -177,21 +185,14 @@ footer{
 
 footer ul{
     display: flex;
-    margin: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
     list-style: none;
     padding-left: 0;
 }
 
-footer .footer-left{
-    justify-self: left;
-}
-
-footer .footer-right{
-    justify-self: right;
-}
-
 footer a{
-    margin: 0.8rem;
+    margin: 10px;
     text-decoration: none;
     color: #70757a;
 }
