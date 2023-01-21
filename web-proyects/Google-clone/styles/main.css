@@ -18,26 +18,29 @@ header{
     width: 100%;
     min-width: 320px;
     height: auto;
-}
-
-header .nav-box{
-    display: flex;
-    justify-content: flex-end;
     padding: 10px;
 }
 
-header .nav-box ul{
+nav{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav ul{
     list-style: none;
     display: flex;
 }
 
-header .nav-box li{
+nav li{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .nav-box a{
+.gmail-link,
+.imagenes-link,
+.menu-icon{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4rem;
@@ -46,14 +49,25 @@ header .nav-box a{
     cursor: pointer;
 }
 
-header .nav-box a:hover{
+.circle-icon-link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+}
+
+nav a:hover{
     text-decoration: underline;
 }
 
-header .nav-box .menu-icon,
-.circle-icon{
+.menu-icon{
     height: 25px;
     width: 25px;
+}
+
+.circle-icon{
+    width: 40px;
 }
 
 
@@ -63,6 +77,7 @@ main{
     flex-direction: column;
     width: 100%;
     min-width: 320px;
+    padding: 10px;
     text-align: center;
 }
 
