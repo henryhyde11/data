@@ -188,15 +188,14 @@ footer{
 .footer-left,
 .footer-right{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     list-style: none;
     padding: 5px;
 }
 
-.footer-right{
-    display: inline-block;
+.footer-left__part1 li,
+.footer-left__part1 li{
+    text-align: start;
 }
 
 footer a{
